@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #eee;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 15px Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -313,7 +313,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 200px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -371,6 +371,7 @@ body {
 #subtitle {
   text-decoration: none;
   color: #fff;
+  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
   font-weight: 300;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
@@ -381,6 +382,8 @@ body {
 }
 #subtitle {
   font-size: 16px;
+  font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
   line-height: 16px;
   letter-spacing: 1px;
 }
@@ -412,15 +415,15 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 14px;
-  width: 14px;
-  height: 14px;
+  font-size: 15px;
+  width: 15px;
+  height: 15px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
 }
 .main-nav-link {
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 479px) {
@@ -487,7 +490,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -634,9 +637,9 @@ a.article-title:hover {
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 14px;
+  font-size: 15px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -841,7 +844,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1106,7 +1109,7 @@ a.article-title:hover {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 22.400000000000002px;
+  line-height: 24px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1162,7 +1165,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 24px;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
@@ -1200,7 +1203,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #2d2d2d;
   color: #999;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
